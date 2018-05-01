@@ -11,7 +11,7 @@ afterEach(async () => {
   await page.close();
 });
 
-describe.skip("All", () => {
+describe("All", () => {
   test(
     "Header has correct text",
     async () => {
